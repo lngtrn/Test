@@ -3,6 +3,7 @@ Library           Selenium2Library
 
 *** Test Cases ***
 T1
+    [Tags]    1
     open browser    https://test3.omenahotels.com/management/#/login    chrome
     input text    //*[@id="username"]    tdlong@tma.com.vn
     input text    //*[@type="password"]    PtFx5P#M67UV
